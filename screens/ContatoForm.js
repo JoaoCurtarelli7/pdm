@@ -53,7 +53,7 @@ export default class ContatoForm extends React.Component {
     return (
       <>
         <Title style={{ color: "red", textAlign: "center" }}>
-          Bem Vindo {nome ? nome : ""}
+          Seja Bem Vindo {nome ? nome : ""}
         </Title>
         <TextInput
           label="Nome"
